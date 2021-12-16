@@ -8,5 +8,14 @@ Like most hobbyists or design engineers, I have a curious nature and usually hav
 Having recently updated our kitchen appliances I just happened to have an old microwave oven that was destined for the landfill. So the donor for the transformer was sitting in my garage.
 I tore the oven apart to find a huge power transfomer which is used to power the magnetron (device used to create the RF waves that cook the food in the microwave).
 
-With this transformer scavanged I had the heart of my new spot welder! I like Kerry's project but being an electrical engineer myself and loving microcontrollers the way I do I thought upgrading the controller was in order.
-I quickly sketched up a schematic in Altium ui=sing a PIC18F26K40, 2x16 LCD, rotary encoder, isolated power supply and a SSR(Solid State Relay).  
+With the transformer now scavanged I had the heart of my new spot welder! 
+
+I like Kerry's project but being an electrical engineer myself and loving microcontrollers the way I do I thought upgrading the controller was in order.
+I quickly sketched up a schematic in Altium using a PIC18F26K40, 2x16 LCD, rotary encoder, foot switch, isolated power supply and a SSR(Solid State Relay).
+
+I had recently acquired an old piece of test gear that was housed in a nice instrument case which was used for the spot welder as well. 
+
+Sparking up Altium again I did a PCB layout. With parts being so small nowadays it just isn't easy for me to breadboard projects anymore. I used PCB Way in China to manufacture the PCB's. They do a great job, are low cost and I usually have boards in about a weeks time. 
+
+When the PCB's arrived I started to populate one and test my code. Hmm . . the SSR would never fire? I guess there was one mistake in the MOSFET symbol . . . so I mounted the MOSFET upside down which swapped pins 1 & 2 thereby fixing my mistake. Everything was now working! I use the rotary encoder to change the timing from 100mS to 1200mS in 100mS increments. Once the correct time is set press the encoder to save this time into EEPROM so it will remember for the next power cycle. 
+
