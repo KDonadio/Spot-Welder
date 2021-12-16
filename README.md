@@ -17,5 +17,8 @@ I had recently acquired an old piece of test gear that was housed in a nice inst
 
 Sparking up Altium again I did a PCB layout. With parts being so small nowadays it just isn't easy for me to breadboard projects anymore. I used PCB Way in China to manufacture the PCB's. They do a great job, are low cost and I usually have boards in about a weeks time. 
 
-When the PCB's arrived I started to populate one and test my code. Hmm . . the SSR would never fire? I guess there was one mistake in the MOSFET symbol . . . so I mounted the MOSFET upside down which swapped pins 1 & 2 thereby fixing my mistake. Everything was now working! I use the rotary encoder to change the timing from 100mS to 1200mS in 100mS increments. Once the correct time is set press the encoder to save this time into EEPROM so it will remember for the next power cycle. 
+When the PCB's arrived I started to populate one and test my code. Hmm . . the SSR would never fire? I found an error in the MOSFET symbol . . . so I mounted the MOSFET upside down which swapped pins 1 & 2 thereby fixing my mistake. Everything was now working! I use the rotary encoder to change the timing from 100mS to 1200mS in 100mS increments. Once the correct time is set press the encoder to save this time into EEPROM so it will remember for the next power cycle. Pressing the footswitch starts a spot weld cycle. Next I added some connectors for the footswitch and the welding cables. 
 
+My next project to wrap this one up is the handheld tweezer type welding probes. 
+
+I am experimenting with nixie tubes and my goal is to eventually make one. The spot welder will be used to attach the internal wires of the nixie to the pins of the tube itself. Because the tube will require extreme heating a simple solder joint won't suffice here. One avenue I am also looking into is the use of plastics instead of glass since the nixie tube never gets very hot under normal running conditions. 
