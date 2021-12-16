@@ -1,4 +1,4 @@
-# Spoty the Spot-Welder
+# Spotty the Spot-Welder
 This project was inspired by something I found on the web that I wanted to expand upon.
 
 The original site was http://www.kerrywong.com/2017/06/18/dual-purpose-spot-welder-with-pulse-duration-control/
